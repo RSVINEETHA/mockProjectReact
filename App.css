@@ -1,0 +1,82 @@
+.app-container {
+  display:flex;
+}
+
+.app-header {
+  display: center;
+  align-items: center;
+  justify-content:center;
+  padding: 20px;
+  background-color: darkblue;
+  color: #333 ;
+}
+.app-header img {
+  max-width: 100%;
+  height: auto;
+}
+.app-sidebar {
+  width: 250px;
+  height: 800px;
+  background-color: green;
+  padding: 10px;
+  border-right: 2px solid #ccc; 
+}
+
+.app-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.app-sidebar li {
+  padding: 5px;
+}
+
+.app-sidebar a {
+  display:inline-table;
+  text-decoration: none;
+  color: black;
+}
+
+.app-sidebar a:hover {
+  color: darkblue;
+}
+
+.app-sidebar .active {
+  color: #fff;
+}
+
+.app-content {
+  width:800px;
+  padding: 70px;
+  display:block;
+  justify-content: center;
+  align-items: center;
+
+}
+.position {
+  padding-left: 50px; /* Adjust the value as needed */
+}
+.team-member-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.team-member-card.hovered {
+  background-color: lightgray;
+}
+
+.team-member-card.clicked {
+  background-color: lightblue;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+
